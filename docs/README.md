@@ -12,7 +12,7 @@
 
 | ファイル | 概要 |
 |---------|------|
-| [specs/03_1-admin-menu.md](specs/03_1-admin-menu.md) | メニュー管理: アーキテクチャ、バリデーション、UseCase設計、テスト方針 |
+| [specs/03_1-admin-menu.md](specs/03_1-admin-menu.md) | メニュー管理: アーキテクチャ、バリデーション、UseCase設計、UI仕様、画像アップロード、テスト方針 |
 
 ## 実装ステップ
 
