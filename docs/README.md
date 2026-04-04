@@ -21,6 +21,7 @@
 | [steps/README.md](steps/README.md) | 実装ステップ一覧・進捗管理 |
 | [steps/01-setup.md](steps/01-setup.md) | Supabase セットアップ |
 | [steps/02-auth.md](steps/02-auth.md) | 認証 |
+| [steps/02-e2e-auth.md](steps/02-e2e-auth.md) | 認証フローのE2Eテスト（Playwright） |
 | [steps/03-admin-menu.md](steps/03-admin-menu.md) | 管理画面: メニュー管理 |
 | [steps/04-admin-tables.md](steps/04-admin-tables.md) | 管理画面: 席管理 |
 | [steps/05-customer-menu.md](steps/05-customer-menu.md) | お客様側: メニュー表示 |
