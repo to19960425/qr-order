@@ -21,25 +21,25 @@ Step 02（認証）の派生タスク。Playwright で認証フローの E2E テ
 
 ### E2E-1 Playwright 初期設定
 
-- [ ] `npx playwright install` でブラウザをインストール
-- [ ] `playwright.config.ts` を作成
+- [x] `npx playwright install` でブラウザをインストール
+- [x] `playwright.config.ts` を作成
   - `baseURL: 'http://localhost:3000'`
   - `webServer` で `npm run dev` を自動起動
   - テスト用ブラウザ: Chromium のみ（MVP 段階）
 
 ### E2E-2 テスト用環境変数
 
-- [ ] `.env.test` にテスト用アカウント情報を定義
+- [x] `.env.test` にテスト用アカウント情報を定義
   ```
   TEST_ADMIN_EMAIL=xxx@example.com
   TEST_ADMIN_PASSWORD=xxx
   ```
-- [ ] `.gitignore` に `.env.test` を追加
-- [ ] テストからは `process.env` で読み込む
+- [x] `.gitignore` に `.env.test` を追加
+- [x] テストからは `process.env` で読み込む
 
 ### E2E-3 認証フロー E2E テスト
 
-- [ ] `e2e/auth.spec.ts` を作成
+- [x] `e2e/auth.spec.ts` を作成
 
 #### テストケース
 
@@ -73,7 +73,7 @@ Step 02（認証）の派生タスク。Playwright で認証フローの E2E テ
 
 ### E2E-4 動作確認
 
-- [ ] `npx playwright test e2e/auth.spec.ts` で全テストが通る
+- [x] `npx playwright test e2e/auth.spec.ts` で全テストが通る
 
 ---
 
