@@ -9,7 +9,7 @@
 | 01 | [Supabase セットアップ](01-setup.md) | [x] 完了 |
 | 02 | [認証](02-auth.md) | [x] 完了 |
 | 03 | [管理画面: メニュー管理](03-admin-menu.md) | [ ] 作業中 |
-| 04 | [管理画面: 席管理](04-admin-tables.md) | [ ] 未着手 |
+| 04 | [管理画面: 席管理](04-admin-tables.md) | [ ] 作業中 |
 | 05 | [お客様側: メニュー表示](05-customer-menu.md) | [ ] 未着手 |
 | 06 | [お客様側: カート + 注文送信](06-customer-cart.md) | [ ] 未着手 |
 | 07 | [お客様側: 注文完了](07-customer-complete.md) | [ ] 未着手 |
