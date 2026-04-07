@@ -14,6 +14,7 @@
 |---------|------|
 | [specs/03_1-admin-menu.md](specs/03_1-admin-menu.md) | メニュー管理: アーキテクチャ、バリデーション、UseCase設計、UI仕様、画像アップロード、テスト方針 |
 | [specs/04_1-admin-tables.md](specs/04_1-admin-tables.md) | 席管理: テーブルCRUD、開閉切り替え、QRコード生成、PDFダウンロード仕様 |
+| [specs/05_1-customer-menu.md](specs/05_1-customer-menu.md) | お客様側メニュー表示: データ取得・カテゴリタブ・メニューカード・カートhook（useCart）仕様 |
 
 ## 実装ステップ
 
