@@ -15,51 +15,51 @@
 
 ### 4.1 席管理ページの骨格
 
-- [ ] `src/app/admin/tables/page.tsx` を実装
+- [x] `src/app/admin/tables/page.tsx` を実装
   - Server Component でテーブル一覧を取得
   - Client Component にデータを渡す構成
   - テーブル番号順にリスト表示
 
 ### 4.2 テーブル一覧表示
 
-- [ ] 各テーブルの表示項目:
+- [x] 各テーブルの表示項目:
   - テーブル番号
   - ステータス（オープン/クローズ）
   - QRコード（小さくインライン表示 or 「表示」ボタン）
-- [ ] 「テーブルを追加」ボタン
+- [x] 「テーブルを追加」ボタン
 
 ### 4.3 テーブル追加
 
-- [ ] ボタンクリックで新規テーブルを作成
-- [ ] テーブル番号は自動採番（既存の最大番号 + 1）
-- [ ] トークンはUUID v4で自動生成
-- [ ] `tables` に INSERT
+- [x] ボタンクリックで新規テーブルを作成
+- [x] テーブル番号は自動採番（既存の最大番号 + 1）
+- [x] トークンはUUID v4で自動生成
+- [x] `tables` に INSERT
 
 ### 4.4 テーブル削除
 
-- [ ] 確認ダイアログ付き（「このテーブルを削除しますか？」）
-- [ ] `tables` から DELETE
-- [ ] 紐づく注文の `table_id` は NULL になる（ON DELETE SET NULL）
+- [x] 確認ダイアログ付き（「このテーブルを削除しますか？」）
+- [x] `tables` から DELETE
+- [x] 紐づく注文の `table_id` は NULL になる（ON DELETE SET NULL）
 
 ### 4.5 テーブル開閉切り替え
 
-- [ ] トグルスイッチ（shadcn/ui の Switch）で `is_active` を切り替え
-- [ ] `tables` の `is_active` を UPDATE
-- [ ] オープン/クローズの視覚的なフィードバック（色の変化等）
+- [x] トグルスイッチ（shadcn/ui の Switch）で `is_active` を切り替え
+- [x] `tables` の `is_active` を UPDATE
+- [x] オープン/クローズの視覚的なフィードバック（色の変化等）
 
 ### 4.6 QRコード生成
 
-- [ ] `qrcode` ライブラリでQRコードを生成
-- [ ] URL: `{NEXT_PUBLIC_APP_URL}/order/{table_token}`
-- [ ] Canvas or SVG でインライン描画
-- [ ] 各テーブルにQRコードを表示（展開/折りたたみ可能）
+- [x] `qrcode` ライブラリでQRコードを生成
+- [x] URL: `{NEXT_PUBLIC_APP_URL}/order/{table_token}`
+- [x] Canvas or SVG でインライン描画
+- [x] 各テーブルにQRコードを表示（展開/折りたたみ可能）
 
 ### 4.7 PDFダウンロード
 
-- [ ] `jsPDF` でPDFを生成
-- [ ] 内容: テーブル番号 + QRコード画像
-- [ ] 個別テーブルごとに「PDFダウンロード」ボタン
-- [ ] クライアント側で生成・ダウンロード
+- [x] `jsPDF` でPDFを生成
+- [x] 内容: テーブル番号 + QRコード画像
+- [x] 個別テーブルごとに「PDFダウンロード」ボタン
+- [x] クライアント側で生成・ダウンロード
 
 ### 4.8 動作確認
 
