@@ -1,6 +1,12 @@
 # Step 06: お客様側 - カート + 注文送信
 
-カート管理（useCart フック）、カート確認画面、注文確定フローを実装する。
+カート管理（useCart フック）、カート確認画面、注文確定フロー、および注文完了画面（最小実装）を実装する。
+
+> **注記**: 確定版の詳細仕様は [`docs/specs/06_3-customer-cart.md`](../specs/06_3-customer-cart.md) を参照。
+> - `useCart` の実 API は `add / decrement / remove / clear / getQuantity / items / totalQuantity / totalAmount`（本ファイルの命名 `addItem / updateQuantity / totalCount` は古い表記）。
+> - `getOrderPageData` の判別タグは `'not_found' | 'closed' | 'open'`。
+> - 注文確定時は `window.confirm('この内容で注文しますか？')` で確認ダイアログを出す。
+> - 注文完了画面 `/order/[token]/complete` の最小実装も本 Step に含む。
 
 ## ゴール
 
