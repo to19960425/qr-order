@@ -16,6 +16,8 @@
 | [specs/04_1-admin-tables.md](specs/04_1-admin-tables.md) | 席管理: テーブルCRUD、開閉切り替え、QRコード生成、PDFダウンロード仕様 |
 | [specs/05_1-customer-menu.md](specs/05_1-customer-menu.md) | お客様側メニュー表示: データ取得・カテゴリタブ・メニューカード・カートhook（useCart）仕様 |
 | [specs/06_1-customer-cart.md](specs/06_1-customer-cart.md) | お客様側カート + 注文送信: カート画面、create_order RPC連携、完了画面（最小）仕様 |
+| [specs/06_2-customer-cart.md](specs/06_2-customer-cart.md) | お客様側カート + 注文送信（v2 / 確定版）: 既存実装ズレを反映、submitOrder ヘルパー設計、テスト戦略 |
+| [specs/06_3-customer-cart.md](specs/06_3-customer-cart.md) | お客様側カート + 注文送信（v3 / 実装用確定版）: 確認ダイアログ追加、空カート挙動明示、submitOrder テストの厳密検証方針 |
 
 ## 実装ステップ
 
