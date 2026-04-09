@@ -18,6 +18,7 @@
 | [specs/06_1-customer-cart.md](specs/06_1-customer-cart.md) | お客様側カート + 注文送信: カート画面、create_order RPC連携、完了画面（最小）仕様 |
 | [specs/06_2-customer-cart.md](specs/06_2-customer-cart.md) | お客様側カート + 注文送信（v2 / 確定版）: 既存実装ズレを反映、submitOrder ヘルパー設計、テスト戦略 |
 | [specs/06_3-customer-cart.md](specs/06_3-customer-cart.md) | お客様側カート + 注文送信（v3 / 実装用確定版）: 確認ダイアログ追加、空カート挙動明示、submitOrder テストの厳密検証方針 |
+| [specs/07_1-customer-complete.md](specs/07_1-customer-complete.md) | お客様側注文完了: 文言調整（見出し＋サブテキスト）、支払い案内テキスト追加 |
 
 ## 実装ステップ
 
