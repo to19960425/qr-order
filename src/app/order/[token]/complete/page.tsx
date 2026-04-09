@@ -19,9 +19,11 @@ export default async function CompletePage({
   return (
     <div className="flex min-h-dvh flex-col items-center justify-center px-6 text-center">
       <h1 className="text-2xl font-bold text-cafe-foreground">
-        ご注文ありがとうございました
+        注文を受け付けました
       </h1>
       <p className="mt-4 text-base text-cafe-foreground">
+        ご注文ありがとうございます。
+        <br />
         商品をお席までお持ちします。
         <br />
         少々お待ちください。
@@ -32,6 +34,9 @@ export default async function CompletePage({
       >
         メニューに戻る
       </Link>
+      <p className="mt-6 text-sm text-cafe-foreground/60">
+        お支払いはレジにてお願いいたします
+      </p>
     </div>
   );
 }
