@@ -11,7 +11,7 @@
 | 03 | [管理画面: メニュー管理](03-admin-menu.md) | [x] 完了 |
 | 04 | [管理画面: 席管理](04-admin-tables.md) | [x] 完了 |
 | 05 | [お客様側: メニュー表示](05-customer-menu.md) | [x] 完了 |
-| 06 | [お客様側: カート + 注文送信](06-customer-cart.md) | [~] 作業中 |
+| 06 | [お客様側: カート + 注文送信](06-customer-cart.md) | [x] 完了 |
 | 07 | [お客様側: 注文完了](07-customer-complete.md) | [ ] 未着手 |
 | 08 | [管理画面: 注文ダッシュボード](08-admin-orders.md) | [ ] 未着手 |
 | 09 | [テスト](09-testing.md) | [ ] 未着手 |
