@@ -8,27 +8,23 @@ const DURATION = 0.2;
 
 export function useNotificationSound() {
   const ctxRef = useRef<AudioContext | null>(null);
-  const [isEnabled, setIsEnabled] = useState(() => {
-    try {
-      return window.localStorage.getItem(STORAGE_KEY) === 'true';
-    } catch {
-      return false;
-    }
-  });
+  const [isEnabled, setIsEnabled] = useState(false);
 
-  // localStorage にフラグがあれば AudioContext を初期化 + アンマウント時クリーンアップ
+  // localStorage からフラグを読み込み + AudioContext 初期化
   useEffect(() => {
-    if (isEnabled && !ctxRef.current) {
-      try {
+    try {
+      const stored = window.localStorage.getItem(STORAGE_KEY) === 'true';
+      if (stored) {
+        setIsEnabled(true);
         ctxRef.current = new AudioContext();
-      } catch {
-        setIsEnabled(false);
       }
+    } catch {
+      setIsEnabled(false);
     }
     return () => {
       ctxRef.current?.close().catch(() => {});
     };
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, []);
 
   const enableNotification = useCallback(() => {
     try {
