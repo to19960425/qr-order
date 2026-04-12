@@ -20,6 +20,7 @@
 | [specs/06_3-customer-cart.md](specs/06_3-customer-cart.md) | お客様側カート + 注文送信（v3 / 実装用確定版）: 確認ダイアログ追加、空カート挙動明示、submitOrder テストの厳密検証方針 |
 | [specs/07_1-customer-complete.md](specs/07_1-customer-complete.md) | お客様側注文完了: 文言調整（見出し＋サブテキスト）、支払い案内テキスト追加 |
 | [specs/08_1-admin-orders.md](specs/08_1-admin-orders.md) | 注文ダッシュボード: リアルタイム2カラムレイアウト、楽観的更新、通知音、レスポンシブ対応 |
+| [specs/09_1-testing.md](specs/09_1-testing.md) | テスト: 既存テスト差分分析、formatPrice単体テスト、注文フローE2E、管理画面E2E、シードデータ戦略 |
 
 ## 実装ステップ
 
